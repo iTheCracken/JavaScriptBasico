@@ -1,0 +1,22 @@
+{
+  "name": "javascriptbasico",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTheCracken/JavaScriptBasico.git"
+  },
+  "author": "José Antonio Covarrubias Peralta <jcovarrubiasp_halo3@hotmail.com> (Cracken)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iTheCracken/JavaScriptBasico/issues"
+  },
+  "homepage": "https://github.com/iTheCracken/JavaScriptBasico#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
