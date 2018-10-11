@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/alumnos', function(req, res) {
+app.get('/alumnos', function (req, res) {
   var nombre = 'Cracken';
   res.send(`
   <!doctype html>
