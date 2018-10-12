@@ -1,5 +1,7 @@
 # Reporte de Actividades DUAL
 
-** José Antonio Covarrubias Peralta
-* jcovarrubiasp_halo3@hotmail.com
+**José Antonio Covarrubias Peralta**  
+*jcovarrubiasp_halo3@hotmail.com*
 
+hola  
+___Ingeniería___ 
