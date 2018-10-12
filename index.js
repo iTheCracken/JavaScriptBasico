@@ -38,35 +38,35 @@ app.get('/alumnos', function (req, res) {
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Submenu
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Acción</a>
+              <a class="dropdown-item" href="#">Otra acción</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Algo más aquí</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">Desactivado</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
       </div>
     </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/noodle.png" alt="First slide">
+            <img class="d-block w-100" src="https://raw.githubusercontent.com/iTheCracken/JavaScriptBasico/master/images/om.jpg" width="800" height="500" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://indiehoy.com/wp-content/uploads/2018/08/gorillaz-noodle.jpg" alt="Second slide">
+            <img class="d-block w-100" src="https://indiehoy.com/wp-content/uploads/2018/08/gorillaz-noodle.jpg" width="800" height="500" alt="Second slide">
           </div>
           <div class="carousel-item">
-           <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+           <img class="d-block w-100" src="https://raw.githubusercontent.com/iTheCracken/JavaScriptBasico/master/images/shiva.jpg" width="800" height="500" alt="Third slide">
           </div>
         </div>
       </div>
