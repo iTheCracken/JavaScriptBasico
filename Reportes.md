@@ -1,1 +1,1 @@
-#Reporte de Actividades DUAL
+# Reporte de Actividades DUAL
