@@ -2,6 +2,8 @@
 var express = require('express');
 var app = express();
 
+app.use(express.static('public'));
+
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
@@ -55,18 +57,18 @@ app.get('/alumnos', function (req, res) {
           <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
-      </div>
+      </div> 
     </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://raw.githubusercontent.com/iTheCracken/JavaScriptBasico/master/images/om.jpg" width="800" height="500" alt="First slide">
+            <img class="center-block" src="./images/liquid.jpg" width="600" height="500" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://indiehoy.com/wp-content/uploads/2018/08/gorillaz-noodle.jpg" width="800" height="500" alt="Second slide">
+            <img class="center-block" src="./images/noodle.png" width="600" height="500" alt="Second slide">
           </div>
           <div class="carousel-item">
-           <img class="d-block w-100" src="https://raw.githubusercontent.com/iTheCracken/JavaScriptBasico/master/images/shiva.jpg" width="800" height="500" alt="Third slide">
+           <img class="center-block" src="./images/shiva.jpg" width="600" height="500" alt="Third slide">
           </div>
         </div>
       </div>
