@@ -1,17 +1,17 @@
 
 enum Sexo {
-  M='Masculino',
-  F='Femenino'
+  M = 'Masculino',
+  F = 'Femenino'
 }
 
-interface Persona{
+interface Persona {
   nombre: string;
   apellidos: string;
   edad: number;
   sexo: Sexo;
 }
 
-function nombreCompleto(datos: Persona){
+function nombreCompleto(datos: Persona) {
   return `Tu nombre es: ${datos.nombre} ${datos.apellidos}`;
 }
 
