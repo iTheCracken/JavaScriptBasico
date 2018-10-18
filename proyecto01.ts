@@ -12,7 +12,7 @@ interface Persona {
 }
 
 function nombreCompleto(datos: Persona) {
-  return `Tu nombre es: ${datos.nombre} ${datos.apellidos}`;
+  return `Tu nombre es : ${datos.nombre} ${datos.apellidos}`;
 }
 
 let Cracken = {
